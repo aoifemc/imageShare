@@ -74,7 +74,7 @@ function getImages(){
 
   $.getJSON(RAI, function( data ){
 
-    //Create an array to hold all the retrieved assets
+    //Create an array to hold all the images
     var items = [];
 
     //Iterate through the returned records and build HTML, incorporating the key values of the record in the data
