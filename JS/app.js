@@ -96,7 +96,7 @@ function getImages(){
         items.push("<img src='"+BLOB_ACCOUNT + val["filePath"] +"'width ='400'/><br />")
         items.push("File : " + val["fileName"] + "<br />");
         items.push("Uploaded by: user " + val["userName"] + "(user id: "+val["userID"]+")<br/>");
-        items.push('<button type="button" id= "subNewForm" class="btn btn-danger" value= "' + val.id + '" onclick="deleteImage(this)">Delete</button> <br/><br/>');
+        items.push('<button style="color: blueviolet;" type="button" id= "subNewForm" class="btn btn-danger" value= "' + val.id + '" onclick="deleteImage(this)">Delete</button> <br/><br/>');
         items.push("<hr />");
 
       }
