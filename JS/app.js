@@ -50,6 +50,7 @@ function submitNewAsset(){
   
 
   //Post the form data to the endpoint, note the need to set the content type header
+  alert("Posted")
   $.ajax({
     url: IUPS,
     data: submitData,
