@@ -86,7 +86,6 @@ function getImages(){
         items.push("Uploaded by: user " + val["userName"] + "(user id: "+val["userID"]+")<br/>");
         //items.push('<button type="button" id= "subNewForm" class="btn btn-danger" onclick="alert' + 'deleteImage('+val["id"] +')">Delete</button> <br/><br/>');
         items.push('<button type="button" id= "subNewForm" class="btn btn-danger" value= "' + val.id + '" onclick="deleteImage(this)">Delete</button> <br/><br/>');
-        //items.push('<button type="button" id="subNewForm" class="btn btn-danger" value="' + val.id +'"');
         //items.push('<button type="button" id = updateImage" class="btn btn-primary" onclick="getImageList(' +val,')" >Update Image</button>');
         items.push("<hr />");
       }
